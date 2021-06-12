@@ -1,0 +1,32 @@
+.fondo{
+    background: $fondo;
+    .imagen-logo{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .articulo1{
+        color: rgb(0, 0, 0);  background: $fondo;
+        margin: $variable-1*4;
+        .articulo1__foto{
+        
+            
+            padding: 20px;
+        }
+    }
+}
+.inline{
+    display: inline-block;
+    width: 82px;
+    height: 40px;
+    background-color: $color-principal;
+    bottom: 40px;
+    left: 40px;
+    position: fixed;
+    border-radius: $variable-1;
+    text-decoration: none;
+    
+}

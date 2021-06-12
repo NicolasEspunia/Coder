@@ -1,0 +1,62 @@
+.inline{
+    display: inline-block;
+    width: 82px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    bottom: 40px;
+    left: 40px;
+    position: fixed;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.imagen-logo{
+    width: 200px;
+    height: 30px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 20px;
+
+}
+body{
+    height: 100%;
+     background: linear-gradient(45deg,rgb(223, 76, 132),rgb(255, 255, 255));
+}
+.sucursal{
+    height: 100%;
+    font-style:oblique ;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+    padding: 30px;
+   
+
+
+}
+.sucursal p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+.perro img{
+    width: 40%;
+    min-width: 300px;
+    margin: 0px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.801)
+}
+.table{
+  display: block;
+  margin:20px ;
+ 
+    
+}
+.table__perros{
+    font-size: 30px;
+    font-weight: 600;
+}

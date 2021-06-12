@@ -1,0 +1,26 @@
+.fondo {
+  background: linear-gradient(45deg, #df4c84, white); }
+  .fondo .imagen-logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 20px; }
+  .fondo .articulo1 {
+    color: black;
+    background: linear-gradient(45deg, #df4c84, white);
+    margin: 20px; }
+    .fondo .articulo1 .articulo1__foto {
+      padding: 20px; }
+
+.inline {
+  display: inline-block;
+  width: 82px;
+  height: 40px;
+  background-color: #ffffff;
+  bottom: 40px;
+  left: 40px;
+  position: fixed;
+  border-radius: 5px;
+  text-decoration: none; }
