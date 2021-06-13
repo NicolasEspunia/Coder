@@ -1,12 +1,12 @@
 .fondo{
     background: $fondo;
     .imagen-logo{
-        width: 200px;
-        height: 200px;
+        width: $variable-2*10;
+        height: $variable-2*10;
         display: flex;
         position: relative;
-        top: 20px;
-        left: 20px;
+        top: $variable-2;
+        left: $variable-2;
     }
     .articulo1{
         color: rgb(0, 0, 0);  background: $fondo;
@@ -21,10 +21,10 @@
 .inline{
     display: inline-block;
     width: 82px;
-    height: 40px;
+    height: $variable-2*2;
     background-color: $color-principal;
-    bottom: 40px;
-    left: 40px;
+    bottom: $variable-2*2;
+    left: $variable-2*2;
     position: fixed;
     border-radius: $variable-1;
     text-decoration: none;
