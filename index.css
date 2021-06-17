@@ -21,7 +21,7 @@ header{
 .imagen-logo{
     width: 150px;
     height: 150px;
-  margin: 20px;
+ 
     left: 20px;
 }
 
@@ -51,12 +51,7 @@ header{
     
 }
 
-.logo:hover{
-    color: rgb(14, 220, 235);
-    cursor: pointer;
-    background-color:rgb(16, 180, 57) ;
 
-}
 .boton{
 
     display: flex;
