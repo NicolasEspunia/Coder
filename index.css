@@ -18,12 +18,18 @@ header{
    display: flex;
    justify-content: space-between;
 }
+
 .imagen-logo{
-    width: 150px;
-    height: 150px;
- 
-    left: 20px;
-}
+        width: 1500px;
+        height: 30px;
+        margin: 0px 0px 0px 0px;
+        display: inline-block;
+        position: relative;
+        left: 100px;
+        top: 20px;
+    
+    }
+
 
 /* .logo{
     width: 150px;
