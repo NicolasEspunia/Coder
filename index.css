@@ -1,6 +1,7 @@
-.fondo{
+ .fondo{
     background: linear-gradient(45deg,rgb(223, 76, 132),rgb(255, 255, 255));
-}
+   
+ }  
 .tarjeta{
     padding: 3rem;
    margin: 1rem;
@@ -12,6 +13,7 @@
  
 }
 
+
 header{
    display: flex;
    justify-content: space-between;
@@ -19,7 +21,7 @@ header{
 .imagen-logo{
     width: 150px;
     height: 150px;
-    margin-left: 0px ;
+  margin: 20px;
     left: 20px;
 }
 
@@ -87,8 +89,13 @@ header{
     background-color: rgb(16, 180, 57);
    
 }
+.carousel{
+    margin: 50px;
+    max-width: 600px;
+}
 .carousel-item{
-    height: 550px;
+  
+    height: 300px;
     min-height: 300px;
 }
 .carousel-item::before{
@@ -118,11 +125,36 @@ section{
 }
 
 footer{
+  
     display: flex;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    flex-direction: column;
+ 
+    }
+.redes{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
     
+}    
+.redes h3{
+    color: rgb(59, 59, 61);
 }
+.redes ul li{
+    max-width: 40px;
+   display: flex;
+   
+}
+.insta{
+    padding: 3px;
+   
+}
+.tik{
+    padding: 3px;
+}
+
 
 @media (max-width:678px)
 
