@@ -1,5 +1,53 @@
+.nav
+{
+    display: flex;
+    top: 20px;
+    right: 30px;
+    position: absolute;
+}
+
+.line
+{
+    background-color: aquamarine;
+    color: rgb(16, 180, 57);
+    height: 5px;
+    width: 15px;
+}
+.lineas{
+    width: 30px;
+    height: 30px;
+   display: flex;
+   flex-direction: column;
+    justify-content: space-between; 
+    background-color: rgb(16, 180, 57);
+   
+}
+.boton{
+    
+    display: flex;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    
+   
+
+ 
+ } 
+ .dropdown-menu:hover{
+     background-color:rgb(147, 208, 243);
+ }
+
+ 
+ 
+ 
+ 
+
+
+
+
+ 
  .fondo{
-    background: linear-gradient(45deg,rgb(223, 76, 132),rgb(255, 255, 255));
+    background: linear-gradient(45deg,rgb(41, 174, 197),rgb(255, 255, 255));
    
  }  
 .tarjeta{
@@ -14,35 +62,17 @@
 }
 
 
+
+ 
 header{
    display: flex;
    justify-content: space-between;
 }
 
-.imagen-logo{
-        width: 1500px;
-        height: 30px;
-        margin: 0px 0px 0px 0px;
-        display: inline-block;
-        position: relative;
-        left: 100px;
-        top: 20px;
-    
-    }
 
 
-/* .logo{
-    width: 150px;
-    color: rgb(40, 3, 41);
-     background: linear-gradient(45deg,rgb(214, 199, 199),rgb(92, 11, 85)); 
-    background-color: rgb(214, 199, 199);
-    padding: 10px;
-    border-radius: 20PX;
-    transition: background-color 1.0s;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
- } */
- .inline{
+.inline
+{
     display: inline-block;
     width: 82px;
     height: 40px;
@@ -58,41 +88,25 @@ header{
 }
 
 
-.boton{
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: 0px 0px 0px 0px;
+    display:flex;
 
-    display: flex;
+    position: relative;
+    left: 10px;
     top: 20px;
-    right: 20px;
-    position: absolute;
+    
+}
    
 
- 
-}
-.nav{
-    display: flex;
-    top: 20px;
-    right: 30px;
-    position: absolute;
-}
 
-.line{
-    background-color: aquamarine;
-    color: rgb(16, 180, 57);
-    height: 5px;
-    width: 15px;
-}
-.lineas{
-    width: 30px;
-    height: 30px;
-   display: flex;
-   flex-direction: column;
-    justify-content: space-between; 
-    background-color: rgb(16, 180, 57);
-   
-}
 .carousel{
+    display: flex;
+  
     margin: 50px;
-    max-width: 600px;
+    max-width:550px;
 }
 .carousel-item{
   
@@ -109,13 +123,13 @@ header{
     background-color: black;
     opacity: .3;
 }
-.img-carousel{
+.carousel2{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
-.img-carousel1{
+.carousel1{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -136,25 +150,28 @@ footer{
 .redes{
     margin: 8px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgb(255, 255, 255);
     
 }    
 .redes h3{
     color: rgb(59, 59, 61);
 }
-.redes ul li{
-    max-width: 40px;
+.redes li{
+    width: 25px;
+    height: 25px;
    display: flex;
+   position: relative;
+   margin: 3px;
    
 }
 .insta{
-    padding: 3px;
-   
+    padding: 2px;
 }
 .tik{
-    padding: 3px;
+    padding: 2px;
 }
+
 
 
 @media (max-width:678px)

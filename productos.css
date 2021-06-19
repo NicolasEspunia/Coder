@@ -2,10 +2,10 @@
 
 body{
     height: 100%;
-    background: linear-gradient(45deg,rgb(223, 76, 132),rgb(255, 255, 255));
+    background: linear-gradient(45deg,rgb(41, 174, 197),rgb(255, 255, 255));
 }
 .imagen-logo{
-    width: 200px;
+    width: 150px;
     height: 200px;
     display: flex;
     position: relative;
@@ -19,87 +19,16 @@ body{
     display: block;
 }
 
-/* .grid{
-    height:90vh;
-   display: grid;
-grid-template-rows:  150px  1fr 1fr 300px ;
-   grid-template-columns: 250px 1fr 1fr;
-   column-gap: 50px;
-   row-gap: 20px;
-   grid-template-areas: 
-   'item1 item2 item2'
-   'item1 item3 item4 ' 
-   'item1 item5 item4' 
-   'item1 item6 item6 ' 
-     
-    ;
-    justify-content: stretch;
-    justify-items: stretch;
-
-} */
-/* --------------------------------galeria */
-/* .img-gallery{
-    width: 400px;
-    height: 250px;
-
-}
-.img-container{
-    margin-bottom: 20px;
-} */
 
 
 
-.productos__img{
-    background: linear-gradient(45deg,rgb(223, 76, 132),rgb(255, 255, 255));
-    list-style-type:none;
-    padding: 15px;
-    border-radius: 30px;
-   
-}
-/* .item1{
-    grid-area: item1;
-}
-.item2{
-    grid-area: item2;
-}
-.item3{
-    grid-area: item3;
-}
-.item4{
-    grid-area: item4;
-}
-.item5{
-    grid-area: item5;
-}
-.item6{
-    grid-area: item6;
-} */
 
-.productos{
-  
-    margin: 50px;
-    
-}
-.productos__img{
-    overflow: hidden;
-    /* border: solid rgb(53, 197, 149)2px; */
-}
-.productos__img img{
-    margin: 20px;
-   justify-items: center;
-
-}
-.productos li p{
-
-   
-    font-size:large;
- }
  ul{
      list-style-type: none;
  }
  .inline{
     display: inline-block;
-    width: 82px;
+    width: 80px;
     height: 40px;
     background-color: rgb(255, 255, 255);
     bottom: 40px;
@@ -111,15 +40,14 @@ grid-template-rows:  150px  1fr 1fr 300px ;
 
 .galeria{
     display: grid;
+    padding: 5px;
     grid-template-columns:repeat(auto-fit,minmax(300px, 1fr)) ;
-    width: 90%;
-    margin: auto;
+    width: 80%;
     gap: 10px;
-    padding: 40px 0;
     overflow: hidden;
 }
 .galeria img:hover{
-    filter: blur(1px);
+    filter: blur(.5px);
     transform: rotate(5deg) scale(1.1);
 
 }
@@ -134,7 +62,7 @@ grid-template-rows:  150px  1fr 1fr 300px ;
     display: block;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 6px rgb(251, 255, 2)
+    box-shadow: 8px 0 8px rgb(0, 0, 0)
 
 }
 .light-box{

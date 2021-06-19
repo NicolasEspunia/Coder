@@ -4,33 +4,33 @@
     height: 40px;
     background-color: rgb(255, 255, 255);
     bottom: 40px;
-    left: 40px;
+    left: 30px;
     position: fixed;
     border-radius: 5px;
     text-decoration: none;
     
 }
-.imagen-logo{
-    width: 200px;
-    height: 30px;
+.logo{
+    width: 150px;
+    height: 150px;
     margin: 0px 0px 0px 0px;
-    display: inline-block;
+    display:flex;
     position: relative;
     left: 100px;
     top: 20px;
 
 }
-body{
-    height: 100%;
-     background: linear-gradient(45deg,rgb(223, 76, 132),rgb(255, 255, 255));
+.fondo{
+    height: 100vh;
+     background-color: rgb(41, 174, 197);
 }
 .sucursal{
     height: 100%;
+    font-size: small;
     font-style:oblique ;
     font-weight: bold;
     color: white;
-    margin-top: 100px;
-    padding: 30px;
+    min-width:250px;
    
 
 
@@ -43,20 +43,23 @@ body{
 
 .perro img{
     width: 40%;
-    min-width: 300px;
-    margin: 0px;
+    min-width: 280px;
+    margin: 20px;
     display: flex;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.801)
 }
-.table{
-  display: block;
-  margin:20px ;
- 
-    
-}
+
 .table__perros{
     font-size: 30px;
     font-weight: 600;
 }
+.margen{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+
+   
+  
