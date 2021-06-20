@@ -1,0 +1,206 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 20px;
+  right: 30px;
+  position: absolute;
+}
+
+.line {
+  background-color: aquamarine;
+  color: #10b439;
+  height: 5px;
+  width: 15px;
+}
+
+.lineas {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #10b439;
+}
+
+.boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+.dropdown-menu:hover {
+  background-color: #93d0f3;
+}
+
+.fondo {
+  background: linear-gradient(45deg, #29aec5, white);
+}
+
+.tarjeta {
+  padding: 3rem;
+  margin: 1rem;
+  -o-object-position: center;
+     object-position: center;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 6px black;
+          box-shadow: 0 0 6px black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.inline {
+  display: inline-block;
+  width: 82px;
+  height: 40px;
+  background-color: white;
+  bottom: 40px;
+  left: 40px;
+  position: fixed;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin: 0px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 10px;
+  top: 20px;
+}
+
+.carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px;
+  max-width: 550px;
+}
+
+.carousel-item {
+  height: 300px;
+  min-height: 300px;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  opacity: .3;
+}
+
+.carousel2 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.carousel1 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+section {
+  margin: 50px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-style: italic;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.redes {
+  margin: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+}
+
+.redes h3 {
+  color: #3b3b3d;
+}
+
+.redes li {
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 3px;
+}
+
+.insta {
+  padding: 2px;
+}
+
+.tik {
+  padding: 2px;
+}
+
+@media (max-width: 678px) {
+  .nav-item {
+    display: none;
+  }
+}
+
+@media (min-width: 678px) {
+  .nav-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 678px) {
+  .boton {
+    display: none;
+  }
+}
+/*# sourceMappingURL=index.css.map */

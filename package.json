@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss sass/main.scss documentos/estilos/nosotros.css",
+    "build-css": "node-sass --include-path scss sass/contacto.scss documentos/contacto.css",
+    "build-css": "node-sass --include-path scss sass/equipo.scss documentos/equipo.css",
+    "build-css": "node-sass --include-path scss sass/index.scss documentos/index.css",
+    "build-css": "node-sass --include-path scss sass/nosotros.scss documentos/nosotros.css",
+    "build-css": "node-sass --include-path scss sass/productos.scss documentos/productos.css",
+    "build-css": "node-sass --include-path scss sass/talles.scss documentos/talles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
    
   },

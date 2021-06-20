@@ -1,0 +1,184 @@
+.nav
+{
+    display: flex;
+    top: 20px;
+    right: 30px;
+    position: absolute;
+}
+.line
+{
+    background-color: aquamarine;
+    color: rgb(16, 180, 57);
+    height: 5px;
+    width: 15px;
+}
+.lineas{
+    width: 30px;
+    height: 30px;
+   display: flex;
+   flex-direction: column;
+    justify-content: space-between; 
+    background-color: rgb(16, 180, 57);
+   
+}
+.boton{
+    
+    display: flex;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    
+   
+
+ 
+ } 
+ .dropdown-menu:hover{
+     background-color:rgb(147, 208, 243);
+ }
+
+ 
+ 
+ 
+ 
+
+
+
+
+ 
+ .fondo{
+    background: linear-gradient(45deg,rgb(41, 174, 197),rgb(255, 255, 255));
+   
+ }  
+.tarjeta{
+    padding: 3rem;
+   margin: 1rem;
+   object-position: center;
+   display: block;
+   position: relative;
+   overflow: hidden;
+   box-shadow: 0 0 6px rgb(0, 0, 0)
+ 
+}
+
+
+
+ 
+header{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+.inline
+{
+    display: inline-block;
+    width: 82px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    bottom: 40px;
+    left: 40px;
+    position: fixed;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    
+    
+}
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: 0px 0px 0px 0px;
+    display:flex;
+
+    position: relative;
+    left: 10px;
+    top: 20px;
+    
+}
+   
+
+
+.carousel{
+    display: flex;
+  
+    margin: 50px;
+    max-width:550px;
+}
+.carousel-item{
+  
+    height: 300px;
+    min-height: 300px;
+}
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: .3;
+}
+.carousel2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+section{
+    margin: 50px;
+}
+
+footer{
+  
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    flex-direction: column;
+ 
+    }
+.redes{
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    
+}    
+.redes h3{
+    color: rgb(59, 59, 61);
+}
+.redes li{
+    width: 25px;
+    height: 25px;
+   display: flex;
+   position: relative;
+   margin: 3px;
+   
+}
+.insta{
+    padding: 2px;
+}
+.tik{
+    padding: 2px;
+}
+
+
+
+@media (max-width:678px)
+
+{ .nav-item {display: none;} } 
+
+@media  (min-width: 678px)
+{.nav-item{display: flex;}}
+    
+@media( min-width:678px)
+{.boton {display: none;}}

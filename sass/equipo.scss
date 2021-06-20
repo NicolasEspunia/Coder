@@ -1,0 +1,47 @@
+.container{
+    height: 100%;
+    background-color:rgb(41, 174, 197);
+    
+}
+.inline{
+    display: inline-block;
+    width: 82px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    bottom: 40px;
+    left: 40px;
+    position: fixed;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.imagen-logo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.foto1-1{
+    display: flex;
+    width:80%;
+    justify-content: center;
+    justify-items: center;
+  align-items: center;
+}
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.meta{
+    display:flex;
+    
+    flex-direction: column;
+}
+.fieldset{
+    display: flex;
+    display: 100vh;
+
+}
