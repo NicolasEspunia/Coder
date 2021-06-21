@@ -24,7 +24,7 @@
 
 .fondo {
   height: 100vh;
-  background-color: #29aec5;
+  background: linear-gradient(45deg, #4b2404, #d48917);
 }
 
 .sucursal {
