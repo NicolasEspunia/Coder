@@ -16,11 +16,11 @@
 
 .fondo {
   height: 100vh;
-  background: linear-gradient(45deg, #4b2404, #d48917);
+  background: linear-gradient(45deg, #b1a194, #d4881779);
 }
 
 .fondo-boton {
-  background: linear-gradient(45deg, #7e3d08, #d48917);
+  background: linear-gradient(45deg, #b1a194, #d4881779);
 }
 
 .imagen-logo {
