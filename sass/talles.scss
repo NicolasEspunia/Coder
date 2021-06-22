@@ -22,9 +22,14 @@
 }
 .fondo{
     height: 100vh;
-    background-image:url(Coder/img/fondorelieve.jpg
-    );
-}
+    background-image:url(/img/fondorelieve.jpg);
+    background-size: cover;
+
+    }
+    .sombra{
+        background-color: black;
+    }
+
 .sucursal{
     height: 100%;
     font-size: small;
