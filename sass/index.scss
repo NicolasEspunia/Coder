@@ -7,8 +7,7 @@
 }
 .line
 {
-    background-color: aquamarine;
-    color: rgb(16, 180, 57);
+   
     height: 5px;
     width: 15px;
 }
@@ -18,8 +17,7 @@
    display: flex;
    flex-direction: column;
     justify-content: space-between; 
-    background-color: rgb(16, 180, 57);
-   
+
 }
 .boton{
     
@@ -28,10 +26,7 @@
     right: 20px;
     position: absolute;
     
-   
-
- 
- } 
+   } 
  .dropdown-menu:hover{
      background-color:rgb(147, 208, 243);
  }
@@ -46,7 +41,7 @@
 
  
  .fondo{
-    background: linear-gradient(45deg, #4b2404, #d48917);
+    background: linear-gradient(45deg, #b1a194, #d48917);
    
  }  
 .tarjeta{
