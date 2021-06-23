@@ -25,12 +25,6 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  .bg-dark {
-    background-color: transparent !important;
-  }
-}
-
 .fondo {
   background: linear-gradient(45deg, #b1a194, #d4881779);
 }
@@ -161,5 +155,11 @@ footer {
 
 .tik {
   padding: 2px;
+}
+
+@media (min-width: 768px) {
+  .bg-dark {
+    background-color: transparent !important;
+  }
 }
 /*# sourceMappingURL=index.css.map */
