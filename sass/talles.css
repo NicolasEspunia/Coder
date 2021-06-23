@@ -22,9 +22,8 @@
   top: 20px;
 }
 
-body {
-  height: 100vh;
-  background-color: #b1a194;
+.fondo {
+  background: #9b8213;
 }
 
 .sucursal {
