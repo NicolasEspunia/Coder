@@ -1,45 +1,3 @@
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  top: 20px;
-  right: 30px;
-  position: absolute;
-}
-
-.line {
-  height: 5px;
-  width: 15px;
-}
-
-.lineas {
-  width: 30px;
-  height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.boton {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  top: 20px;
-  right: 20px;
-  position: absolute;
-}
-
-.dropdown-menu:hover {
-  background-color: #93d0f3;
-}
-
 .fondo {
   background: linear-gradient(45deg, #b1a194, #d4881779);
 }
@@ -54,15 +12,6 @@
   overflow: hidden;
   -webkit-box-shadow: 0 0 6px black;
           box-shadow: 0 0 6px black;
-}
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .inline {
@@ -179,25 +128,5 @@ footer {
 
 .tik {
   padding: 2px;
-}
-
-@media (max-width: 678px) {
-  .nav-item {
-    display: none;
-  }
-}
-
-@media (min-width: 678px) {
-  .nav-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media (min-width: 678px) {
-  .boton {
-    display: none;
-  }
 }
 /*# sourceMappingURL=index.css.map */
