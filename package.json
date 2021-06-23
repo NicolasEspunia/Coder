@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss sass/contacto.scss documentos/contacto.css",
-    "build-css": "node-sass --include-path scss sass/equipo.scss documentos/equipo.css",
-    "build-css": "node-sass --include-path scss sass/index.scss documentos/index.css",
-    "build-css": "node-sass --include-path scss sass/nosotros.scss documentos/nosotros.css",
-    "build-css": "node-sass --include-path scss sass/productos.scss documentos/productos.css",
-    "build-css": "node-sass --include-path scss sass/talles.scss documentos/talles.css",
+    "build-css": "node-sass --include-path scss sass/contacto.scss sass/contacto.css",
+    "build-css": "node-sass --include-path scss sass/equipo.scss sass/equipo.css",
+    "build-css": "node-sass --include-path scss sass/index.scss sass/index.css",
+    "build-css": "node-sass --include-path scss sass/nosotros.scss sass/nosotros.css",
+    "build-css": "node-sass --include-path scss sass/productos.scss sass/productos.css",
+    "build-css": "node-sass --include-path scss sass/talles.scss sass/talles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
    
   },
