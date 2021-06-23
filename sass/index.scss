@@ -8,15 +8,24 @@
     background-attachment: fixed;
 
 }
-
+.header::before{
+    content: '';
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.11),rgba(55, 51, 44, 0.993));
+}
 
 
 
 
 .fondo{
-    background: linear-gradient(45deg, #b1a194, #d4881779);
+    background-color: linear-gradient(45deg, #b1a194, #d4881779);
    
  }  
+
 .tarjeta{
     padding: 3rem;
    margin: 1rem;
