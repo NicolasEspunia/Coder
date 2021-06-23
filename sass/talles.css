@@ -26,6 +26,7 @@
   height: 100vh;
   background-image: url(/img/fondorelieve.jpg);
   background-size: cover;
+  opacity: 0.7;
 }
 
 .sombra {
