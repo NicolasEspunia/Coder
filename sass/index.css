@@ -32,6 +32,20 @@
   text-transform: uppercase;
 }
 
+.navg a:hover {
+  background-color: #d4881779;
+}
+
+.text-header {
+  min-height: 100vh;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text-header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .fondo {
   background: linear-gradient(45deg, #b1a194, #d4881779);
 }
