@@ -15,13 +15,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.11)), to(rgba(55, 51, 44, 0.993)));
-  background-image: linear-gradient(rgba(255, 255, 255, 0.11), rgba(55, 51, 44, 0.993));
 }
 
 .bg-dark {
   position: fixed;
-  z-index: 20;
+  z-index: 10;
   width: 100%;
 }
 
