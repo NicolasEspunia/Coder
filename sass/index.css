@@ -15,8 +15,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(48, 47, 47, 0.575)), to(#22282d));
-  background-image: linear-gradient(rgba(48, 47, 47, 0.575), #22282d);
+  background-image: radial-gradient(rgba(73, 50, 8, 0.411));
 }
 
 .bg-dark {
