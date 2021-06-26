@@ -1,7 +1,10 @@
 .fondo {
   display: flex;
     height: 100vh;
-    background: linear-gradient(45deg, #b1a194, #d4881779); }
+    background: linear-gradient(45deg, #b1a194, #d4881779); 
+    flex-wrap: wrap;
+  
+  }
   
   .fondo .imagen-logo {
       width: 200px;
@@ -12,6 +15,8 @@
       left: 20px; }
 .datos{
   background: linear-gradient(45deg, #b1a194, #d4881779);
+  display: flex;
+  flex-wrap: wrap;
 }      
   
   

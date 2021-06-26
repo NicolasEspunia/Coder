@@ -4,6 +4,8 @@
   display: flex;
   height: 100vh;
   background: linear-gradient(45deg, #b1a194, #d4881779);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .fondo .imagen-logo {
@@ -19,6 +21,11 @@
 
 .datos {
   background: linear-gradient(45deg, #b1a194, #d4881779);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .fondo .articulo1 {
