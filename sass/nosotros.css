@@ -27,6 +27,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: auto;
 }
 
 .fondo .articulo1 {
