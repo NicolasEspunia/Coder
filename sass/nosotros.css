@@ -17,7 +17,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: relative;
   top: 20px;
   left: 20px;
 }
