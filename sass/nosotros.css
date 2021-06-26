@@ -9,6 +9,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-bottom: 80px;
 }
 
 .fondo .imagen-logo {
@@ -32,7 +33,6 @@
 
 .fondo .articulo1 {
   color: black;
-  padding-bottom: 80px;
   margin: 20px;
 }
 
